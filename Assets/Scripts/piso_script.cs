@@ -7,8 +7,7 @@ public class piso_script : MonoBehaviour
 {
     public UI_manager ui_Manager;
     public cubo_script Cubo_Script;
-}
-    // Start is called before the first frame update
+
     
     void OnCollisionEnter(Collision collision)
     {
@@ -18,3 +17,4 @@ public class piso_script : MonoBehaviour
             ui_Manager.cambiar_texto(peso);
         }
     }
+}

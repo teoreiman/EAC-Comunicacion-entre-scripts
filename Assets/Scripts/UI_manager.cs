@@ -6,7 +6,7 @@ using TMPro;
 public class UI_manager : MonoBehaviour
 {
     public TextMeshProUGUI texto;
-    public void cambiar_texto (float texto)
+    public void cambiar_texto (float peso)
     {
         texto.text = "pesa " + peso;
     }
